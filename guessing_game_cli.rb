@@ -14,4 +14,4 @@ def run_guessing_game
     input == random_num
     puts "You guessed the correct number!"
   else 
-    puts 
+    puts "Sorry! The computer guessed #{random_num}"
