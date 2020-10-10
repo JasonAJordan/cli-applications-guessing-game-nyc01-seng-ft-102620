@@ -2,8 +2,7 @@
 
 def run_guessing_game 
   
-  random_num = 1 + rand(6)
-  
+  random_num = rand(6) + 1
   
   #puts "Please guess a number 1-6, enter 'exit' to return."
   input = gets.chomp
