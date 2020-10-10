@@ -12,4 +12,6 @@ def run_guessing_game
     puts "Goodbye!"
   elsif 
     input == random_num
-    
+    puts "You guessed the correct number!"
+  else 
+    puts 
